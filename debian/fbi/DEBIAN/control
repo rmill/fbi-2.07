@@ -1,0 +1,16 @@
+Package: fbi
+Version: 2.07-9
+Architecture: amd64
+Maintainer: Moritz Muehlenhoff <jmm@debian.org>
+Installed-Size: 169
+Depends: libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2-1), libexif12, libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff4, ghostscript
+Suggests: imagemagick
+Section: graphics
+Priority: optional
+Homepage: http://linux.bytesex.org/fbida/
+Description: Linux frame buffer image viewer
+ This is an image viewer for Linux frame buffer devices.  It has
+ built-in support for a number of common image file formats.  For
+ unknown files, it tries to use convert from the ImageMagick package
+ as an external converter.
+ It also includes fbgs, a Postscript and PDF viewer.

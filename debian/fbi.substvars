@@ -1,0 +1,2 @@
+shlibs:Depends=libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2-1), libexif12, libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff4
+misc:Depends=
